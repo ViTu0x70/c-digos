@@ -1,0 +1,22 @@
+
+package secao4_aula30_udemy;
+
+import java.util.Scanner;
+
+
+public class Secao4_aula30_udemy {
+    
+    public static void main(String[] args) {
+System.out.println(" escreva um valor para X");
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+System.out.println(" escreva um valor para Y");        
+        int y = sc.nextInt();
+        
+        int soma = x +y ;
+        System.out.println("o resultado da soma: "+ soma );
+        
+        sc.close();
+    }
+    
+}
